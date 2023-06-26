@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <div class="button-container">
+    <button id="loginBtn">Login</button>
+    <hr>
+    <button id="cadastroBtn">Cadastro</button>
+  </div>
+  <main class="container">
+    <div class="form-container" id="loginForm">
+      <h1>Login</h1>
+      <form>
+        <div style="display: inline_block">
+          <img alt="Entrar com Facebook" align="center"
+            src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+          <img alt="Entrar com Google" align="center"
+            src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+        </div>
+        <div>
+          <input type="checkbox" id="lembrarSenha" name="lembrarSenha">
+          <label for="lembrarSenha">Lembrar senha</label>
+        </div>
+        <div>
+          <a href="#">Esqueci minha senha</a>
+        </div>
+        <div class="button-container-submit">
+          <button type="submit">Entrar</button>
+        </div>
+      </form>
+    </div>
+
+    </div>
+
+    <div class="form-container" id="cadastroForm">
+      <h1>Cadastro</h1>
+      <form>
+        <div style="display: inline_block">
+          <img alt="Entrar com Facebook" align="center"
+            src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+          <img alt="Entrar com Google" align="center"
+            src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+        </div>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div>
+          <label for="emailCadastro">Email:</label>
+          <input type="email" id="emailCadastro" name="emailCadastro" required>
+        </div>
+        <div>
+          <label for="senhaCadastro">Senha:</label>
+          <input type="password" id="senhaCadastro" name="senhaCadastro" required>
+        </div>
+        <div>
+          <label for="confirmarSenha">Senha:</label>
+          <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+        </div>
+        <div class="button-container-submit">
+          <button type="submit">Cadastrar</button>
+        </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
