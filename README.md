@@ -2,11 +2,11 @@
 
 Este é um projeto de página de login criado com HTML, CSS e JavaScript. A página de login é uma interface simples e interativa que permite a utlização da página de cadastro e Login. Apenas o frontend sem verificação de dados.
 
-Recursos Utilizados
-HTML: Linguagem de marcação utilizada para estruturar e exibir os elementos na página.
-CSS: Linguagem de estilo utilizada para definir a aparência e o layout da página.
-JavaScript: Linguagem de programação utilizada para adicionar interatividade à página, validar os dados inseridos pelo usuário e realizar a autenticação.
-Como Utilizar
+**##Recursos Utilizados**<br>
+**HTML:** Linguagem de marcação utilizada para estruturar e exibir os elementos na página.<br>
+**CSS:** Linguagem de estilo utilizada para definir a aparência e o layout da página.<br>
+**JavaScript:** Linguagem de programação utilizada para adicionar interatividade à página, validar os dados inseridos pelo usuário e realizar a autenticação.<br>
+**##Como Utilizar**<br>
 Faça o clone deste repositório em sua máquina local.
 Abra o arquivo index.html em seu navegador web.
 A página de login será exibida, onde você poderá inserir suas credenciais de acesso.
